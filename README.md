@@ -1,12 +1,6 @@
-Ótimo! Vou documentar cada célula do seu notebook em formato Markdown, incluindo o código, explicações técnicas acessíveis, fórmulas estatísticas quando aplicável, e interpretações claras. O estilo será formal-acadêmico, porém didático, pensado para leitores da disciplina de Probabilidade e Estatística.
-
-Vou gerar o documento para você e te aviso assim que estiver pronto!
-
 # Análise da Correlação entre Taxas de Juros (Selic e Fed Funds) e o Impacto da Variação da Selic em Retornos de Ações (2019–2024)
 
 ## Introdução
-
- ([image]()) *Figura 1: Fluxograma do processo analítico realizado no notebook.*  
 
 Este relatório documenta, passo a passo, uma análise estatística envolvendo taxas de juros e dados do mercado acionário brasileiro no período de **2019 a 2024**. Em especial, examina-se a **correlação entre a taxa Selic (Brasil) e a Fed Funds Rate (EUA)** e verificam-se estatisticamente a significância dessa correlação e seu intervalo de confiança. Além disso, investiga-se a **variação da Selic ao longo dos anos** (2019–2024) por meio de uma ANOVA de uma via, bem como a relação entre as **oscilações da Selic e os retornos de ações de empresas industriais**. O fluxograma da **Figura 1** resume as principais etapas do trabalho, desde a coleta de dados até as inferências estatísticas. A seguir, cada célula do notebook é detalhada com o código correspondente, explicação técnica, fundamentação estatística (incluindo fórmulas relevantes) e interpretação dos resultados obtidos.
 
@@ -719,5 +713,3 @@ De forma geral, conclui-se que:
 - A conexão entre as políticas monetárias do Brasil e dos EUA foi forte no período recente, 
 - A política monetária doméstica variou drasticamente ao longo dos anos recentes (confirmando nossa compreensão qualitativa dos eventos econômicos), 
 - E as reações do mercado acionário doméstico a essas variações de juros, ao menos no segmento industrial e no curto prazo, não seguiram um padrão linear simples. 
-
-Essa documentação procurou abranger tanto o **como** (execução do código e procedimentos estatísticos) quanto o **porquê** (razões teóricas e interpretações práticas) de cada etapa, proporcionando um material de estudo compreensível para estudantes de Probabilidade e Estatística interessados em aplicações financeiras.
